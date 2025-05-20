@@ -5,5 +5,3 @@ pg = st.navigation([
     st.Page("page_2.py")
     ])
 pg.run()
-
-st.title('Home Page')
