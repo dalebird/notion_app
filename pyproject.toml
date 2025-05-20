@@ -1,0 +1,24 @@
+[project]
+name = "notion-app"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (>=2.2.6,<3.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "streamlit (>=1.45.1,<2.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "ipython (>=9.2.0,<10.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "notion_app", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
